@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/CSSStyle.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet'>
+</head>
+
+<body>
+    <!--  Start of Navigation Bar  -->
+
+    <div class="navbar">
+        <a href="../HTML/html.html" target="_blank">HTML</a>
+        <a href="../HTML/CSS.html">CSS</a>
+        <a href="../HTML/JavaScript.html" target="_blank">JavaScript</a>
+        <a href="../HTML/PHP.html" target="_blank">PHP</a>
+        <a href="../HTML/contactUs.html" target="_blank">Contact Us</a>
+        <div class="dropdown right" target="_blank">
+            <button class="dropbtn">About Us <i class='fas fa-caret-down'></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="../HTML-CV/me/HTML_CV.html" target="_blank">Ibrahim Al-humaidy</a>
+                <a href="../HTML-CV/friend/CV-master/CV.html" target="_blank">Abdulaziz Al-Saafin</a>
+            </div>
+        </div>
+    </div>
+
+    <!--  End of Navigation Bar  -->
+
+    <!--  Empty header  -->
+
+    <div id="headerId">
+        <h1></h1>
+    </div>
+
+    <!-- the contant images and the text -->
+
+    <div class="row">
+        <div class="column">
+            <img src="../img/css-img1.png" alt="Code from my CSS">
+            <img src="../img/css-img2.png" alt="Code from my CSS">
+        </div>
+
+        <div class="column">
+            <h2>Part 1</h2>
+            <pre>
+                /* Style the footer */
+                .footer {
+                    background-color: floralwhite;
+                    padding: 20px;
+                    text-align: center;
+                }
+
+                /* for the icons in the footer */
+                #elementID {
+                    color: black;
+                    text-shadow: 2px 3px 2px #ccc;
+                    font-size: 2.5em;
+                }
+
+                /* for the PHP text *** no CSS for php file */
+                #phpText {
+                    text-align: center;
+                    padding: 100px;
+                }
+
+                /* to make the footer at the end */
+                #footerEnd {
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                    background-color: floralwhite;
+                }
+            </pre>
+            <br>
+            <h2>Part 2</h2>
+            <pre>
+                /* change the size of the right part JS */
+                #sizeFont {
+                    font-size: 4em;
+                }
+
+                /* video size */
+                #video {
+                    width: 100%;
+                    height: 345px;
+                    border: 3px solid black;
+                    border-radius: 6px;
+                    background-color: black;
+                }
+
+                /* header coolor */
+                #headerColor {
+                    background-color: #F8DA00;
+                }
+
+                /* change the footer color*/
+                #footerEnd {
+                    background-color: black;
+                }
+
+                /* change the color and cancel the shadow */
+                #elementID{
+                    text-shadow: 0px 0px 0px gray;
+                    color: floralwhite;
+                }
+            </pre>
+        </div>
+
+        <!-- footer -->
+
+        <div class="footer" id="footerEnd">
+            <a href="https://www.instagram.com/ibrahim11a/" id="elementID">
+                <i class='fab fa-instagram'></i>
+            </a>
+            <a href="https://github.com/ibrahim-ah" id="elementID">
+                <i class='fab fa-github'></i>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

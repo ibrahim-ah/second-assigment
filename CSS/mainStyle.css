@@ -1,0 +1,160 @@
+body {
+    margin: auto;  /* I make margin auto to remove all margin in the page */
+    background-color: floralwhite;
+    font-family: 'Allerta';
+}
+
+
+/* color and fixing the menu */
+.navbar {
+    overflow: hidden;
+    background-color: #1C1C1C;
+    position: fixed;   /* Set the navbar to fixed position */
+    top: 0;    /* Position the navbar at the top of the page */
+    width: 100%;  /* Full width */
+}
+
+/* the contant(text) in menu */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+/* to make the drop down in about us */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* to make the drop down in about us */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    width: 190px;
+    transition: 1s;
+}
+
+/*mouse over link*/
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: gainsboro;
+}
+
+/* selected link */
+.navbar a:active,
+.dropdown:active .dropbtn {
+    background-color: red;
+}
+
+/* to make the drop down in about us */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* to make the drop down in about us */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* to make hover the drop down in about us */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* to make about us in the right side*/
+.right {
+    float: right;
+}
+
+/* size for the header */
+.header {
+    padding: 80px;
+    background-color: floralwhite;
+}
+
+
+/* magin for the table */
+#html-tags {
+    border-collapse: collapse;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+#html-tags td,
+#html-tags th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: auto;
+}
+
+
+#html-tags tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+#html-tags tr:hover {
+    background-color: #ddd;
+}
+
+#html-tags th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #007CFF;
+    color: white;
+}
+
+
+/* Style the footer */
+.footer {
+    background-color: floralwhite;
+    padding: 20px;
+    text-align: center;
+}
+
+/* for the icons in the footer */
+#elementID {
+    color: black;
+    text-shadow: 2px 3px 2px #ccc;
+    font-size: 2.5em;
+}
+
+/* for the PHP text *** no CSS for php file */
+#phpText {
+    text-align: center;
+    padding: 100px;
+}
+
+/* to make the footer at the end */
+#footerEnd {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: floralwhite;
+}

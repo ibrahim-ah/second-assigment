@@ -1,0 +1,1 @@
+Open CV.html after extracting it along with CV_img or else no picture will load
